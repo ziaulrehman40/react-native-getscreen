@@ -1,0 +1,31 @@
+{
+  "name": "react-native-getscreen",
+  "version": "0.0.1",
+  "description": "A react native higher order component which provides some methods to determine your screen type",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ziaulrehman40/react-native-getscreen.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-web",
+    "screen",
+    "responsive"
+  ],
+  "author": "Calin Ortan",
+  "license": "ISC",
+  "dependencies": {
+    "lodash.throttle": "^4.1.1",
+    "react": "16.8.3",
+    "react-native": "^0.59.10"
+  },
+  "devDependencies": {
+    "ws": ">=3.3.1",
+    "mem": ">=4.0.0",
+    "braces": ">=2.3.1"
+  }
+}
