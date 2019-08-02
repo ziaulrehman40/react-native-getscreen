@@ -1,7 +1,7 @@
 {
   "name": "react-native-getscreen",
-  "version": "0.0.0",
-  "author": "Zia Ul Rehman <ziarehmaan@live.com> (https://ziatechblog.wordpress.com)",
+  "version": "0.0.1",
+  "author": "Calin Ortan",
   "description": "A react-native higher order component which provides some methods to determine your screen type",
   "main": "src/index.js",
   "repository": {
@@ -17,7 +17,6 @@
     "screen",
     "responsive"
   ],
-  "author": "Calin Ortan",
   "license": "ISC",
   "dependencies": {
     "lodash.throttle": "^4.1.1",
