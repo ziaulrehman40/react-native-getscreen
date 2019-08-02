@@ -1,6 +1,6 @@
 {
   "name": "react-native-getscreen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A react native higher order component which provides some methods to determine your screen type",
   "main": "src/index.js",
   "repository": {
