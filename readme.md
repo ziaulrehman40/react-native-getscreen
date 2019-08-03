@@ -1,6 +1,6 @@
-### REACT-GETSCREEN
+## REACT-NATIVE-GETSCREEN
 
-This package provides a React Native higher order component which adds
+This package provides a React Native higher order component(HOC) which adds
 some useful methods to your wrapped components in order to
 get your screen width. And it also causes state change on screen type change if `shouldListenOnResize` is enabled(which is by default), which means a re-render of the screen when size changes.
 
@@ -10,12 +10,12 @@ on the display type.
 
 **This package is a port of react library (react-getscreen)[https://github.com/calinortan/react-getscreen] to react-native**
 
-###### Install
+#### Install
 ```
 npm install react-native-getscreen --save
 ```
 
-###### Example
+#### Example
 
 ```
 import React, { Component } from 'react';
@@ -38,3 +38,7 @@ Supports an `options` object containing following props:
 - `tabletLimit` - Max width for tablet display. default = 768
 - `shouldListenOnResize` - Boolean describing whether it should listen on screen resize. default = true
 
+
+#### TODOs:
+1- Add a react hook for same functionality (this implementation can help)[https://github.com/devhubapp/devhub/blob/master/packages/components/src/components/context/LayoutContext.tsx].
+2- Add option to have custom number of screen sizes which user can configure. Currently only 3 screen sizes are available.
